@@ -1,8 +1,14 @@
 import "./App.css";
-import ColorPaletteGenerator from "./components/colorPaletteGenerator.jsx";
+import ColorPaletteGenerator from "./components/ColorPaletteGenerator.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
-  return <ColorPaletteGenerator />;
+  return (
+    <>
+      <ColorPaletteGenerator />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
